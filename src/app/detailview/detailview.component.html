@@ -1,0 +1,9 @@
+<p>
+ course detailview works! {{courseID}}
+</p>
+<p>
+  the extra query param is {{extra}}
+</p>
+<button [routerLink]="['/courses',previous()]">previous</button>
+<input type="text" (click)= "changeDiry()">
+<button [routerLink]="['/courses',next()]">next</button>
